@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD4F6FB12A68106A00FFEFE4 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F6FAD2A68106A00FFEFE4 /* Reminder.swift */; };
+		AD4F6FB22A68106A00FFEFE4 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F6FAF2A68106A00FFEFE4 /* AddReminderView.swift */; };
+		AD4F6FB32A68106A00FFEFE4 /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F6FB02A68106A00FFEFE4 /* RemindersListView.swift */; };
+		ADED1F342A6814910051DE8B /* RemindersListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED1F332A6814910051DE8B /* RemindersListVM.swift */; };
+		ADED1F362A6840E90051DE8B /* RemindersListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED1F352A6840E90051DE8B /* RemindersListRowView.swift */; };
+		ADED1F392A6844670051DE8B /* ReminderToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED1F382A6844670051DE8B /* ReminderToggleStyle.swift */; };
 		ADF530972A6707E900C6FE4C /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF530962A6707E900C6FE4C /* ToDoApp.swift */; };
-		ADF530992A6707E900C6FE4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF530982A6707E900C6FE4C /* ContentView.swift */; };
 		ADF5309B2A6707ED00C6FE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF5309A2A6707ED00C6FE4C /* Assets.xcassets */; };
 		ADF5309E2A6707ED00C6FE4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF5309D2A6707ED00C6FE4C /* Preview Assets.xcassets */; };
-		ADF530A82A6707EE00C6FE4C /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF530A72A6707EE00C6FE4C /* ToDoTests.swift */; };
-		ADF530B22A6707EE00C6FE4C /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF530B12A6707EE00C6FE4C /* ToDoUITests.swift */; };
-		ADF530B42A6707EE00C6FE4C /* ToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF530B32A6707EE00C6FE4C /* ToDoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD4F6FAD2A68106A00FFEFE4 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		AD4F6FAF2A68106A00FFEFE4 /* AddReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		AD4F6FB02A68106A00FFEFE4 /* RemindersListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
+		ADED1F332A6814910051DE8B /* RemindersListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListVM.swift; sourceTree = "<group>"; };
+		ADED1F352A6840E90051DE8B /* RemindersListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListRowView.swift; sourceTree = "<group>"; };
+		ADED1F382A6844670051DE8B /* ReminderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderToggleStyle.swift; sourceTree = "<group>"; };
 		ADF530932A6707E900C6FE4C /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF530962A6707E900C6FE4C /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
-		ADF530982A6707E900C6FE4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF5309A2A6707ED00C6FE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF5309D2A6707ED00C6FE4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADF530A32A6707EE00C6FE4C /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADF530A72A6707EE00C6FE4C /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 		ADF530AD2A6707EE00C6FE4C /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADF530B12A6707EE00C6FE4C /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
-		ADF530B32A6707EE00C6FE4C /* ToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +75,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4F6FA92A68106A00FFEFE4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AD4F6FAA2A68106A00FFEFE4 /* Reminders */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AD4F6FAA2A68106A00FFEFE4 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				ADED1F372A68444D0051DE8B /* Styles */,
+				AD4F6FAC2A68106A00FFEFE4 /* Models */,
+				AD4F6FAB2A68106A00FFEFE4 /* ViewModels */,
+				AD4F6FAE2A68106A00FFEFE4 /* Views */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		AD4F6FAB2A68106A00FFEFE4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ADED1F332A6814910051DE8B /* RemindersListVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD4F6FAC2A68106A00FFEFE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD4F6FAD2A68106A00FFEFE4 /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD4F6FAE2A68106A00FFEFE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD4F6FAF2A68106A00FFEFE4 /* AddReminderView.swift */,
+				AD4F6FB02A68106A00FFEFE4 /* RemindersListView.swift */,
+				ADED1F352A6840E90051DE8B /* RemindersListRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADED1F372A68444D0051DE8B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				ADED1F382A6844670051DE8B /* ReminderToggleStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		ADF5308A2A6707E900C6FE4C = {
 			isa = PBXGroup;
 			children = (
 				ADF530952A6707E900C6FE4C /* ToDo */,
-				ADF530A62A6707EE00C6FE4C /* ToDoTests */,
-				ADF530B02A6707EE00C6FE4C /* ToDoUITests */,
 				ADF530942A6707E900C6FE4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +149,8 @@
 		ADF530952A6707E900C6FE4C /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				AD4F6FA92A68106A00FFEFE4 /* Features */,
 				ADF530962A6707E900C6FE4C /* ToDoApp.swift */,
-				ADF530982A6707E900C6FE4C /* ContentView.swift */,
 				ADF5309A2A6707ED00C6FE4C /* Assets.xcassets */,
 				ADF5309C2A6707ED00C6FE4C /* Preview Content */,
 			);
@@ -108,23 +163,6 @@
 				ADF5309D2A6707ED00C6FE4C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		ADF530A62A6707EE00C6FE4C /* ToDoTests */ = {
-			isa = PBXGroup;
-			children = (
-				ADF530A72A6707EE00C6FE4C /* ToDoTests.swift */,
-			);
-			path = ToDoTests;
-			sourceTree = "<group>";
-		};
-		ADF530B02A6707EE00C6FE4C /* ToDoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ADF530B12A6707EE00C6FE4C /* ToDoUITests.swift */,
-				ADF530B32A6707EE00C6FE4C /* ToDoUITestsLaunchTests.swift */,
-			);
-			path = ToDoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF530992A6707E900C6FE4C /* ContentView.swift in Sources */,
+				ADED1F392A6844670051DE8B /* ReminderToggleStyle.swift in Sources */,
 				ADF530972A6707E900C6FE4C /* ToDoApp.swift in Sources */,
+				ADED1F362A6840E90051DE8B /* RemindersListRowView.swift in Sources */,
+				AD4F6FB12A68106A00FFEFE4 /* Reminder.swift in Sources */,
+				AD4F6FB32A68106A00FFEFE4 /* RemindersListView.swift in Sources */,
+				ADED1F342A6814910051DE8B /* RemindersListVM.swift in Sources */,
+				AD4F6FB22A68106A00FFEFE4 /* AddReminderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF530A82A6707EE00C6FE4C /* ToDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF530B42A6707EE00C6FE4C /* ToDoUITestsLaunchTests.swift in Sources */,
-				ADF530B22A6707EE00C6FE4C /* ToDoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
